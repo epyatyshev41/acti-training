@@ -1,6 +1,6 @@
 class Customer(object):
 
-    def __init__(name):
+    def __init__(self, name):
         self.name = name
         self.rentals = []
 
