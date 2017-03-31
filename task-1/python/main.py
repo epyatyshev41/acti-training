@@ -2,7 +2,7 @@ from customer import Customer
 from movies import RegularMovie, NewReleaseMovie, ChildrensMovie
 from rental import RentalWithBonuses
 from pricing import SimplePricingSystem
-from bonuse import SimpleBonus
+from bonus import SimpleBonus
 from reports import TextReporter
 
 def main():
