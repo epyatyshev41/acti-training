@@ -4,14 +4,18 @@ class Bonus(object):
     """
     Abstract class for all Bonuse rules for movies rent
     """
+
     def score(self, movie, days_rented):
         """
-        Abstract method for rental price score return 
+        Abstract method for rental price score return
         """
         raise NotImplementedError
-    
+
 class SimpleBonus(Bonus):
-    
+    """
+    Bonus system from task code
+    """
+
     def score(self, movie, days_rented):
 
         #initial bonus for movie rent

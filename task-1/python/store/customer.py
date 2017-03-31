@@ -1,4 +1,7 @@
 class Customer(object):
+    """
+    Class for customers in movies rent store
+    """
 
     def __init__(self, name):
         self.name = name
